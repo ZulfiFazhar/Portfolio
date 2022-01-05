@@ -1,0 +1,22 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ffe5b4;
+}
+
+#projects {
+  padding-top: 8rem;
+}
+
+.Footer {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  background-color: #ffe5b4;
+}
+
+section {
+  padding-top: 5rem;
+}

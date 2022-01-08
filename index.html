@@ -16,6 +16,10 @@ git push -->
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <!-- my css -->
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="img/logo.png">
@@ -52,7 +56,7 @@ git push -->
 
     <!-- jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/KUJICAM_2021-07-04-08-10-51_developed (2).jpg" alt="Zulfi Fadilah Azhar" width="200" class="rounded-circle mb-3" />
+      <img src="img/KUJICAM_2021-07-04-08-10-51_developed (2).jpg" alt="Zulfi Fadilah Azhar" width="200" class="rounded-circle mb-3"/>
       <h1 class="display-4"> Zulfi Fadilah Azhar</h1>
       <p class="lead">Just, Hi.</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -68,16 +72,18 @@ git push -->
     <!-- about -->
     <section id="About">
       <div class="container">
-        <div class="row text-center mb-4 mt-5">
+        <div class="row text-center mb-4 mt-5" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+        data-aos-delay="50"
+        data-aos-offset="300">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="80" data-aos-offset="350" data-aos-duration="1000" >
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ad repellendus quae unde aliquam animi facere laudantium eum ipsa nostrum?</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="80" data-aos-offset="350" data-aos-duration="1500" >
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam culpa, nesciunt sint voluptatem, accusamus, cum consectetur id quidem esse ratione eligendi eaque.</p>
           </div>
         </div>
@@ -88,34 +94,42 @@ git push -->
     <!-- Projects -->
     <section id="projects">
       <div class="container">
-        <div class="row text-center mb-4">
+        <div class="row text-center mb-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+        data-aos-delay="50"
+        data-aos-offset="300">
           <div class="col">
             <h2>My Projects</h2>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="80" data-aos-offset="350" data-aos-duration="1000" >
             <div class="card">
-              <a  href="https://zulfifazhar.github.io/sign-up/Signup.html" target="_blank"><img src="img/Projects/1.png" class="card-img-top" alt="Projects 1" /></a>
+              <div class="inner">
+                <a href="https://zulfifazhar.github.io/sign-up/Signup.html" target="_blank"><img src="img/Projects/1.png" class="card-img-top" alt="Projects 1" /></a>
+              </div>
               <div class="card-body">
                 <p class="card-text">Responsive Sign Up and Login website</p>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="80" data-aos-offset="350" data-aos-duration="1250" >
             <div class="card">
-              <img src="img/Projects/2.jpg" class="card-img-top" alt="Projects 2" />
+              <div class="inner">
+                <img src="img/Projects/2.jpg" class="card-img-top" alt="Projects 2" />
+              </div>
               <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quam deserunt nam placeat! Ut itaque iusto sed ea.</p>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="80" data-aos-offset="350" data-aos-duration="1500" >
             <div class="card">
-              <img src="img/Projects/3.jpg" class="card-img-top" alt="Projects 3" />
+              <div class="inner">
+                <img src="img/Projects/3.jpg" class="card-img-top" alt="Projects 3" />
+              </div>
               <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quam deserunt nam placeat! Ut itaque iusto sed ea.</p>
               </div>
@@ -151,7 +165,7 @@ git push -->
             <div class="col-md-8 position-relative mb-4">
 
               <label for="validationDefault01" class="form-label">Name</label>
-              <input type="text" class="form-control" id="validationDefault01" placeholder="Input your name" name="name" required>
+              <input type="text" class="form-control" placeholder="Input your name" name="name" id="validationDefault01"  required>
             </div>
 
             <div class="col-md-8  position-relative mb-4">
@@ -203,8 +217,10 @@ git push -->
     
 <!-- Akhir Footer 2 -->
 
+<!-- CSS JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+    <!-- JS google sheets -->
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxKR9J_goudEWDmpjGoj3jGdQNVIwMvS8iNmvrpcRM1-HEqhhq6x-3VbCQ2n4J3bmEX/exec'
 
@@ -231,6 +247,18 @@ git push -->
           })
       })
     </script>
+
+<!-- JS GSAP Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+<!-- JS AOS Library -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true,
+  });
+</script>
+
 
   </body>
 </html>

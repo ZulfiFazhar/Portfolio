@@ -23,10 +23,16 @@ ul {
   padding-top: 8rem;
 }
 
-.card,
-a {
-  text-decoration: none;
-  color: var(--primary-blue);
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.05);
 }
 
 .Footer {

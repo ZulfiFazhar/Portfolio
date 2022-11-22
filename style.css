@@ -201,7 +201,8 @@ hr {
 .Footer {
   padding-top: 1rem;
   padding-bottom: 4rem;
-  background-color: var(--primary-blue);
+  background: rgb(81,110,164);
+  background: linear-gradient(155deg, rgba(81,110,164,1) 0%, rgba(26,32,78,1) 50%, rgba(123,10,60,1) 100%);
 }
 
 

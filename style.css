@@ -201,5 +201,7 @@ hr {
 .Footer {
   padding-top: 1rem;
   padding-bottom: 4rem;
-  background-color: #ffe5b4;
+  background-color: var(--primary-blue);
 }
+
+
